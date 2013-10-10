@@ -42,7 +42,7 @@ header {
 
 .wrap  {
 	width:840px;
-	height: 800px;
+	height: 820px;
 	margin: 0 auto;
 }
 
@@ -83,7 +83,6 @@ nav a:hover {
 	color: #B3BBD7;
 }
 
-
 #slider {
 	width: 840px;
 	height: 300px;
@@ -95,8 +94,6 @@ nav a:hover {
 	background-size: 100%;
 	box-shadow: 0px 2px 5px #666666;
 }
-
-
 
 #infoslider {
 	width: 260px;
@@ -129,7 +126,7 @@ nav a:hover {
 .tituloseccion {
 	width: 100%;
 	height: 25px;
-        padding-bottom: 30px;
+	margin-bottom: 20px;
 }
 
 .tituloseccion h1 {
@@ -181,17 +178,12 @@ a.botonver:hover {
 	float: left;
 }
 
-
 .novedadarticulo {
 	width: 100%;
 	height: 115px;
-	padding-top: 15px;
+	margin-top: 15px;
 	border-bottom: 1px solid;
 	border-bottom-color: #999999;
-}
-
-.novedades div:nth-child(2) {
-        padding-top: 0px;
 }
 
 .fotoarticulo {
@@ -260,6 +252,7 @@ a.botonver:hover {
 .cuadroregistro {
 	width: 100%;
 	height: 375px;
+	margin-top: 15px;
 	border: 1px solid;
 	border-radius: 5%;
 		box-shadow: 0px 2px 5px #666666;
@@ -360,73 +353,5 @@ img {
 	height: 20px;
 	float: right;
 	margin-left: 10px;
-	margin-top: 15px;
-}
-
-/* Fin de Home */
-
-/*Servicios*/
-
-.w2  {
-	width:840px;
-	height: 930px;
-	margin: 0 auto;
-}
-
-.n2 {
-	height: 500px;
-	margin-bottom: none;
-}
-
-.n3 {
-	height: 320px;
-}
-
-.infogeneral {
-	width: 100%;
-	height: auto;
-	padding-bottom: 15px;
-	font-family: 'Open sans', sans-serif;
-	font-size: 12px;
-	margin-bottom: 15px;
-	border-bottom: 1px solid;
-	border-bottom-color: #999999;
-	display: block;
-}
-
-.salastres {
-	width: 100%;
-	height: 165px;
-	margin-bottom: 30px;
-}
-
-.salastres h1 {
-	font-family: 'Open sans', sans-serif;
-	font-size: 13px;
-	margin: 0 auto;
-	font-weight: 700;
-	width: 150px;
-	float: left;
-        display: inline-block;
-}
-
-.salastres h1 a {
-	text-decoration: none;
-	color: #D96D00;
-}
-
-.salastres h1 a:hover {
-	text-decoration: underline;
-}
-
-.fotosala {
-	width: 171px;
-	height: 100%;
-	float: left;
-}
-
-.f2 {
-	width: 150px;
-	height: 130px;
 	margin-top: 15px;
 }
